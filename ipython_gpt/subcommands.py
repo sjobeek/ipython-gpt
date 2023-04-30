@@ -22,7 +22,7 @@ class BaseIPythonGPTCommand:
             help="The OpenAI API Key to use. Can be also set as envvars",
         )
         parser.add_argument(
-            "--reset-conversation",
+            "-r", "--reset-conversation",
             help="Start a brand new conversation without previous context",
             action="store_true",
         )
